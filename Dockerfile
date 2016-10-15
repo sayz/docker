@@ -4,4 +4,6 @@ MAINTAINER Sefa Yıldız <sefyildiz@gmail.com>
 
 RUN apt-get update && java -version
 
-ADD README.md ./
+ADD README.md .
+
+ADD test.txt .
