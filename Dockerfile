@@ -2,11 +2,9 @@ FROM ubuntu
 
 MAINTAINER Sefa Yıldız <sefyildiz@gmail.com>
 
-RUN apt-get update
+RUN echo "MERHABA!"
 
 ADD README.md .
-
-ADD test.txt .
 
 ENTRYPOINT ["top", "-b"]
 
