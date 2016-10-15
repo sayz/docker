@@ -1,8 +1,8 @@
-FROM java:openjdk-8u91-jdk
+FROM ubuntu
 
 MAINTAINER Sefa Yıldız <sefyildiz@gmail.com>
 
-RUN apt-get update && java -version
+RUN apt-get update
 
 ADD README.md .
 
