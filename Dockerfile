@@ -9,3 +9,5 @@ ADD README.md .
 ADD test.txt .
 
 ENTRYPOINT ["top", "-b"]
+
+CMD ["-c"]
