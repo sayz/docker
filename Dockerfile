@@ -7,3 +7,5 @@ RUN apt-get update && java -version
 ADD README.md .
 
 ADD test.txt .
+
+ENTRYPOINT ["top", "-b"]
